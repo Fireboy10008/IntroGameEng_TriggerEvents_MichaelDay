@@ -1046,6 +1046,10 @@ PlayableDirector:
     value: {fileID: 388137869}
   - key: {fileID: -261648684332925311, guid: 2dbd18d5b12e1fa4dbe9f534e2429a70, type: 2}
     value: {fileID: 230339282}
+  - key: {fileID: 4575338093979178403, guid: 2dbd18d5b12e1fa4dbe9f534e2429a70, type: 2}
+    value: {fileID: 1158946714}
+  - key: {fileID: 9102778024212062456, guid: 2dbd18d5b12e1fa4dbe9f534e2429a70, type: 2}
+    value: {fileID: 1158946714}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &10535039
@@ -27791,6 +27795,7 @@ GameObject:
   - component: {fileID: 1158946713}
   - component: {fileID: 1158946712}
   - component: {fileID: 1158946711}
+  - component: {fileID: 1158946714}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -27890,6 +27895,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158946709}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1158946714
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158946709}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1159887595
 GameObject:
   m_ObjectHideFlags: 0
@@ -47555,17 +47582,17 @@ PrefabInstance:
     - target: {fileID: 3718916257624482953, guid: 588a4f4e4ada74344badd9589c3875c7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.34406942
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3718916257624482953, guid: 588a4f4e4ada74344badd9589c3875c7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9389442
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3718916257624482953, guid: 588a4f4e4ada74344badd9589c3875c7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 139.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4073783934486050814, guid: 588a4f4e4ada74344badd9589c3875c7,
         type: 3}
